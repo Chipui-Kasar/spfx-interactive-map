@@ -1,0 +1,26 @@
+@import "~@fluentui/react/dist/sass/References.scss";
+
+.interactiveMap {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  box-shadow: -2px 35px 44px -18px hsla(0, 0%, 47%, 0.13);
+  .header {
+    .title {
+      -webkit-line-clamp: 1;
+      line-clamp: 1;
+      -webkit-box-orient: vertical;
+      display: -webkit-box;
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0;
+      overflow: hidden;
+      padding: 0;
+    }
+  }
+  .mapContainer {
+    width: 100%;
+  }
+}

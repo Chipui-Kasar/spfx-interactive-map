@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "interactive-map-client-side-solution",
+    "id": "96163a9e-afd1-4b0a-8620-0467f0ebf57f",
+    "version": "1.0.0.2",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "Chipui",
+      "websiteUrl": "https://chipuikasar.netlify.app/",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "interactive-map description"
+      },
+      "longDescription": {
+        "default": "interactive-map description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "interactive-map Feature",
+        "description": "The feature that activates elements of the interactive-map solution.",
+        "id": "5373ee3b-a4c3-4e30-b4e1-c4b56657884d",
+        "version": "1.0.0.2"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/interactive-map.sppkg"
+  }
+}

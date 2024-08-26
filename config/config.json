@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "interactive-map-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/interactiveMap/InteractiveMapWebPart.js",
+          "manifest": "./src/webparts/interactiveMap/InteractiveMapWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "InteractiveMapWebPartStrings": "lib/webparts/interactiveMap/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

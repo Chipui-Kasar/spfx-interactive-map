@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.20.1",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.2",
+    "libraryName": "interactive-map",
+    "libraryId": "96163a9e-afd1-4b0a-8620-0467f0ebf57f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "interactive-map",
+    "solutionShortDescription": "interactive-map description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
